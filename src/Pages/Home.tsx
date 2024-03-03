@@ -9,7 +9,7 @@ import {
 } from "@react-google-maps/api"; */
 
 import Hero from "../Components/Home/HomeHero";
-
+import Subhero from "../Components/Home/Card/Card";
 
 const HomePage: React.FC = () => {
   const handleScroll = () => {
@@ -21,10 +21,14 @@ const HomePage: React.FC = () => {
 
   return (
     <>
-      <div className="home-container  bg-white h-full w-full  ">
+      <div className="home-container  bg-white h-screen w-full  ">
         <section className="hero-section   h-[300px] w-full "
          >
         <Hero/>
+        </section>
+
+        <section className="bg-[#CFEAD9] w-full h-[600px]  p-4  pb-8 flex justify-center items-center ">
+       <Subhero/>
         </section>
       </div>
     </>

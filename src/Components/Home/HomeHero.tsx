@@ -17,6 +17,7 @@ const MyCarousel = () => {
     <Swiper
       spaceBetween={0}
       slidesPerView={1}
+     
       navigation
       pagination={{ clickable: false }}
       scrollbar={{ draggable: true }}
@@ -35,7 +36,7 @@ const MyCarousel = () => {
             <h1 className="welcome-text    text-6xl font-bold text-white font-sans   text-center ">
               WELCOME TO NCCF ABUJA CHAPTER
             </h1>
-            <h4 className="sub-heading-text   text-white text-3xl font-bold font-dm text-center ">
+            <h4 className="sub-heading-text   text-white text-2xl font-normal font-dm text-center ">
               THE NIGERIAN CHRISTIAN COPPERS FELLOWSHIP
             </h4>
           </section>
@@ -74,11 +75,11 @@ const MyCarousel = () => {
           }}
         >
           <section className="items-container       flex flex-col gap-5 justify-start items-start px-3 p-2 gap-5">
-            <h1 className="heading-for-slider  text-white font-SEMIBOLD  text-5xl font-serif  text-lft w-[50%] ">
+            <h1 className="heading-for-slider  text-white font-semibold  text-5xl font-serif  text-lft w-[50%] ">
               EMBRACE THE LIGHT OF GOD'S LOVE, AND WALK IN HIS WAYS
             </h1>
             <div className="text-gif flex flex-row gap-4 ">
-              <p className="under-text font-semibold font-sans text-3xl text-left w-[55%] text-transparent bg-clip-text bg-gradient-to-br from-white to-white ">
+              <p className="under-text font-normal font-sans text-2xl text-left w-[55%] text-transparent bg-clip-text bg-gradient-to-br from-white to-white ">
                 Welcome to our Christian family, where the light of God's love
                 shines brightly. Join us on a journey of faith, hope, and
                 community. Together, we seek to grow in His grace and share His
@@ -117,12 +118,15 @@ const MyCarousel = () => {
             <h3 className="text-white font-bold  text-4xl">
               Transformative Community Outreach
             </h3>
-            <p className="text-white font-normal font-sans text-xl text-center   w-[60%]">
-              Join hands with us in making a positive impact on our community. Through outreach programs, missions, and charitable activities, we strive to be the hands and feet of Jesus, bringing hope, healing, and love to those in need.
+            <p className="font-normal font-sans text-2xl text-white text-center   w-[60%]">
+              Join hands with us in making a positive impact on our community.
+              Through outreach programs, missions, and charitable activities, we
+              strive to be the hands and feet of Jesus, bringing hope, healing,
+              and love to those in need.
             </p>
             <Link to=" ">
-             <button className="learn-more-button bg-white p-3 w-[fixed] h-[fixed] text-blue-700 font-bold  font-sans  text-xl text-center  border-2 border-blue-700 hover:bg-blue-700 hover:text-white hover:ease-in-out hover:transition-colors hover:duration-1000   transition:colors duration-1000 ease-in-out ">
-               Join Us Today &rarr;
+              <button className="learn-more-button bg-white p-3 w-[fixed] h-[fixed] text-blue-700 font-bold  font-sans  text-xl text-center  border-2 border-blue-700 hover:bg-blue-700 hover:text-white hover:ease-in-out hover:transition-colors hover:duration-1000   transition:colors duration-1000 ease-in-out ">
+                Join Us Today &rarr;
               </button>
             </Link>
           </section>
