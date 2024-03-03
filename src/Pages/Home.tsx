@@ -1,16 +1,15 @@
-import React, { useState, useEffect } from "react";
-import { Helmet } from "react-helmet";
+import React, {useEffect } from "react";
+/*
 import axios from "axios";
 import {
   GoogleMap,
   LoadScript,
   Marker,
   DirectionsRenderer,
-} from "@react-google-maps/api";
-import Hero from "../Components/Hero";
-import SubHero from "../Components/Subhero";
-import Cards from "../Components/CardsMap";
-import Carousel1 from "../Components/Carousel1";
+} from "@react-google-maps/api"; */
+
+import Hero from "../Components/Home/HomeHero";
+
 
 const HomePage: React.FC = () => {
   const handleScroll = () => {
@@ -18,24 +17,14 @@ const HomePage: React.FC = () => {
   };
   useEffect(() => {
     handleScroll();
-  }, [1]);
+  }, []);
 
   return (
     <>
-      <div className="home-container   ">
-        <section className="hero-section w-full  pb-2 ">
-          <Hero />
-        </section>
-
-        <section className="sub-hero-section w-full pb-8">
-          <SubHero />
-        </section>
-
-        <section className="cards-section w-full pb-8">
-          <Cards />
-        </section>
-              <section className="carousel-1-section w-full pb-8">
-                  <Carousel1/>
+      <div className="home-container  bg-white h-full w-full  ">
+        <section className="hero-section   h-[300px] w-full "
+         >
+        
         </section>
       </div>
     </>

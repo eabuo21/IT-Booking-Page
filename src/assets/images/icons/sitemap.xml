@@ -1,0 +1,41 @@
+  <?xml version="1.0" encoding="UTF-8" ?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+
+  <Loc>https://tongston.com  </loc>
+    <lastmod> 2024-02-13  </lastmod>
+  <changefreq> daily  </changefreq>
+  <priority>0.1  </priority>
+  </url>
+
+  <url>
+  <Loc> https://tongston.com/about  </Loc>
+  <lastmod> 2024-02-13  </lastmod>
+  <changefreq> daily  </changefreq>
+  <priority>0.2  </priority>
+  </url>
+
+<url>
+  <Loc> https://tongston.com/career
+  </Loc>
+  <lastmod> 2024-02-13  </lastmod>
+  <changefreq> daily  </changefreq>
+  <priority> 0.3    </priority>
+</url>
+
+<url>
+  <Loc> https://tongston.com/events  </Loc>
+  <lastmod> 2024-02-13  </lastmod>
+  <changefreq> daily  </changefreq>
+  <priority> 0.4    </priority>
+</url>
+
+<url>
+
+  <Loc> https://tongston.com/contcats  </Loc>
+  <lastmod> 2024-02-13  </lastmod>
+  <changefreq> daily  </changefreq>
+  <priority> 0.5   </priority>
+ </url>
+
+</urlset>

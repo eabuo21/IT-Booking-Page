@@ -1,5 +1,8 @@
 import { Route, Routes } from "react-router-dom";
-import Homepage from "../src/Pages/Home";
+import Home from "../src/Pages/Home";
+import About from "../src/Pages/About";
+import Alumini from "../src/Pages/Alumini";
+import Accomodation from "../src/Pages/Accomodation";
 import PaymentGateway from "../src/Pages/Payment";
 import Footer from "../src/Components/Feat";
 import NavigationMenu from "../src/Components/NavigationMenu";
@@ -10,17 +13,20 @@ function App(): JSX.Element {
     <>
       <div className="App">
         <section className="header-section sticky ">
-     
+          <NavigationMenu />
         </section>
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/alumini" element={<Alumini />} />
+          <Route path="/accomodations" element={<Accomodation />} />
           <Route path="/PaymentGateway" element={<PaymentGateway />} />
         </Routes>
         <section className="footer-section ">
-        
+        {/*  <Footer />*/}
         </section>
       </div>
     </>
   );
-};
+}
 export default App;
