@@ -7,6 +7,11 @@ import PaymentGateway from "../src/Pages/Payment";
 import Footer from "../src/Components/Feat";
 import NavigationMenu from "../src/Components/NavigationMenu";
 import "./App.css";
+import 'swiper/css'; // Import Swiper styles
+import 'swiper/css/navigation'; // Optional: Import Swiper Navigation styles
+import 'swiper/css/pagination'; // Optional: Import Swiper Pagination styles
+
+
 
 function App(): JSX.Element {
   return (

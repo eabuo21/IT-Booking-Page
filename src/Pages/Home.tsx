@@ -24,7 +24,7 @@ const HomePage: React.FC = () => {
       <div className="home-container  bg-white h-full w-full  ">
         <section className="hero-section   h-[300px] w-full "
          >
-        
+        <Hero/>
         </section>
       </div>
     </>

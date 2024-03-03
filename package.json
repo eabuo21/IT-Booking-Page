@@ -24,6 +24,8 @@
     "react-router-dom": "^6.21.2",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
+    "swiper": "^11.0.7",
+    "swiper-bundle": "^0.0.1-security",
     "tailwindcss": "^3.4.1"
   },
   "devDependencies": {
