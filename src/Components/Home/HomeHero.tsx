@@ -6,11 +6,17 @@ import "swiper/css"; // Import Swiper styles
 import "swiper/css/navigation"; // Optional: Import Swiper Navigation styles
 import "swiper/css/pagination"; // Optional: Import Swiper Pagination styles
 
+
+
+
+
 import FamilyHouse from "../../assets/images/Hero-images/nccfhouse.jpg";
 import Fellowship from "../../assets/images/Hero-images/fellowhip.jpg";
 
 import Ruggd from "../../assets/images/Hero-images/rural-rugged.jpg";
 import { Link } from "react-router-dom";
+
+
 
 const MyCarousel = () => {
   return (
@@ -21,6 +27,7 @@ const MyCarousel = () => {
       navigation
       pagination={{ clickable: false }}
       scrollbar={{ draggable: true }}
+      autoplay={{ delay: 3000, disableOnInteraction: false }}
     >
       <SwiperSlide>
         <div

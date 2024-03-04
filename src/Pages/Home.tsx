@@ -27,7 +27,7 @@ const HomePage: React.FC = () => {
         <Hero/>
         </section>
 
-        <section className="bg-[#CFEAD9] w-full h-[600px]  p-4  pb-8 flex justify-center items-center ">
+        <section className="bg-[#CFEAD9] w-full h-[700px]  p-4  pb-8 flex justify-center items-center ">
        <Subhero/>
         </section>
       </div>
