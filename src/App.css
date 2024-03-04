@@ -5,4 +5,19 @@
     }
     
    
-    
+    .circle-container-1{
+      animation: blink 7s linear infinite;
+
+    }
+
+    @keyframes blink {
+      0%{
+        background: tomato;
+      }
+      50%{
+        background: brown;
+      }
+      100%{
+        background: blue;
+      }
+    }
