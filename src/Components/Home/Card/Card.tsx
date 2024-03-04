@@ -5,8 +5,8 @@ import NCCF from "../../../assets/images/Hero-images/rural-rugged.jpg";
 const CardsMop = () => {
   return (
     <>
-      <div className="items-container      w-[1000px] h-[400px]  relative top-[5rem] rounded-sm bg-white  shadow-current shadow-md  flex flex-row gap-1 justify-start items-start p-2">
-        <section className="first-inline-container   flex flex-col justify-start items-start gap-6 px-2 p-2  w-[50%] ">
+      <div className="items-container      w-[1000px] h-[400px]  relative top-[5rem] rounded-sm bg-white  shadow-current shadow-md  flex flex-row gap-1 justify-start items-start ">
+        <section className="first-inline-container   flex flex-col justify-start items-start gap-6 px-4 py-4 p-2  w-[50%] ">
           <h1 className="firsst-section-heading   text-4xl w-full font-bold  text-blue-950 text-left  font-dm">
             Don't let a lack of experience hold you back
           </h1>
@@ -23,10 +23,11 @@ const CardsMop = () => {
         </section>
 
 
-        <section className="second=inline-container  flex flex-col gap-2    w-[50%] ">
+        <section className="second=inline-container  flex flex-col gap-2   bg-grey h-[400px] w-[50%] ">
           <div className="first-div      flex flex-col gap-3 justify-start items-start px-2"></div>
-<img src={NCCF} alt="image"className="w-full h-auto"/>
+<img src={NCCF} alt="image"className="w-full h-[250px] relative bottom-2"/>
           <div className="second-div   flex flex-row gap-4 "></div>
+          
         </section>
       </div>
     </>
