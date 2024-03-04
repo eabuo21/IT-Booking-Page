@@ -2,12 +2,15 @@
 
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css"; // Import Swiper styles
-import "swiper/css/navigation"; // Optional: Import Swiper Navigation styles
-import "swiper/css/pagination"; // Optional: Import Swiper Pagination styles
+import "swiper/css";
+import "swiper/css/navigation"; 
+import "swiper/css/pagination"; 
+import 'swiper/css/scrollbar';
 
 
 
+
+// Install Autoplay module
 
 
 import FamilyHouse from "../../assets/images/Hero-images/nccfhouse.jpg";
@@ -19,15 +22,21 @@ import { Link } from "react-router-dom";
 
 
 const MyCarousel = () => {
+  
+
   return (
     <Swiper
       spaceBetween={0}
       slidesPerView={1}
      
+
       navigation
       pagination={{ clickable: false }}
       scrollbar={{ draggable: true }}
-      autoplay={{ delay: 3000, disableOnInteraction: false }}
+      autoplay={{ delay: 3000,  disableOnInteraction: false }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+      
     >
       <SwiperSlide>
         <div
