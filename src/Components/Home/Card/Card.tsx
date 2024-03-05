@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import { Link } from "react-router-dom";
 import NCCF from "../../../assets/images/Hero-images/rural-rugged.jpg";
@@ -5,7 +7,16 @@ import NCCF from "../../../assets/images/Hero-images/rural-rugged.jpg";
 const CardsMop = () => {
   return (
     <>
-      <div className="items-container      w-[1000px] h-[450px]  relative top-[5rem] rounded-sm bg-white  shadow-current shadow-md  flex flex-row gap-1 justify-start items-start ">
+      <div
+        data-aos="fade-up"
+        data-aos-easing="ease-in linear"
+        data-aos-duration="2000"
+        data-aos-mirror="true"
+        data-aos-anchor-placement="top-center"
+        data-aos-delay="50"
+        data-aos-once="true"
+        className="items-container      w-[1000px] h-[450px]  relative top-[5rem] rounded-sm bg-white  shadow-current shadow-md  flex flex-row gap-1 justify-start items-start "
+      >
         <section className="first-inline-container   flex flex-col justify-start items-start gap-6 px-4 py-4 p-2  w-[50%] ">
           <h1 className="firsst-section-heading   text-4xl w-full font-bold  text-blue-950 text-left  font-dm">
             Don't let a lack of experience hold you back
@@ -42,9 +53,19 @@ const CardsMop = () => {
               </p>
             </section>
 
-<section className="last-streight-background-section bg-blue-950 h-[205px]  relative bottom-5 w-[250px] justify-center tems-center p-2 ">
-
-</section>
+            <section className="last-streight-background-section bg-blue-950 h-[205px]  relative bottom-5 w-[250px] justify-center items-center p-2 mx-auto flex flex-col">
+              <Link
+                to=" "
+                className=" flex flex-col justify-center items-center mx-auto gap-2 "
+              >
+                <p className="text-white text-base  font-bold font-sans  text-center  ">
+                  Get started
+                </p>
+                <span className=" bg-white  animate-bounce  rounded-[50%] text-blue-700 p-2 w-[50px[ h-50px[ ">
+                  &rarr;
+                </span>
+              </Link>
+            </section>
           </div>
         </section>
       </div>

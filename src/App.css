@@ -21,3 +21,10 @@
         background: blue;
       }
     }
+
+ 
+
+  .location-image{
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }

@@ -32,7 +32,7 @@ const MyCarousel = () => {
 
       navigation
       pagination={{ clickable: false }}
-      scrollbar={{ draggable: true }}
+      scrollbar={{ draggable: false }}
       autoplay={{ delay: 3000,  disableOnInteraction: false }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
